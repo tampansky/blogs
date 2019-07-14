@@ -1,0 +1,598 @@
+
+<html>
+      <title>IndoXploit</title>
+      <link rel="SHORTCUT ICON" href="https://avatars1.githubusercontent.com/u/43514618?s=280&v=" type="image/gif">
+      <meta name="description" content="IndoXploit"> 
+      <meta name="Author" content=" Tampansky ">
+      <meta name="copyright" content="PanthomSkyCyberTeam">     
+      <meta name="description" content="IndoXploit">
+      <body onmousedown="return false" oncontextmenu="return false" onselectstart="return false"> 
+      <script> var message="Hayo...! Mau Copas ya? Kreatif Dong !!!";
+            ///////////////////////////////////
+            function clickIE4(){if (event.button==2){alert(message);return false;}} function clickNS4(e){if (document.layers||document.getElementById&&!document.all){if (e.which==2||e.which==3){alert(message);return false;}}} if (document.layers){document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS4;} else if (document.all&&!document.getElementById){document.onmousedown=clickIE4;} document.oncontextmenu=new Function("alert(message);return false")</script>
+          
+   <script>alert("Tampansky Was here!!!") </script> 
+</script> 
+<center>
+<style>
+body{text-align;font-family: 'Averia Sans Libre', cursive;}
+hr{border: 1px solid #1C1C1C;}
+</style>
+<style type="text/css">
+body,td,th {
+ color: #FFFFFF;
+}
+body {cursor:url("http://www.fbvideo.16mb.com/files/cur.cur"),default;
+ background-color: #000000;
+}
+a { text-decoration:none; }
+a:link { color: #00FF00}
+a:visited { color: #00FF00}
+a:hover { color: #00FF00}
+a:active { color: #00FF00}
+
+.style2 {Helvetica, sans-serif; font-weight: bold; font-size: 15px; }
+.style3 {Helvetica, sans-serif; font-weight: bold; }
+.style4 {color: rgb(255, 255, 255)}
+.style5 {color: rgb(255, 255, 255)}
+.style6 {color: rgb(0, 225, 255)}
+img{border:4px double rgb(1, 217, 255);
+    box-shadow:0px 9px 15px rgb(255, 255, 255);
+ border-radius:10px;}
+.thanks{border:4px double rgb(0, 238, 255);
+    box-shadow:0px 2px 20px white;
+ border-radius:10px;
+ padding:9px;}
+.a{text-shadow:0px 1px 10px rgb(0, 0, 0);}
+</style>
+    <iframe width="0" height="0" src="https://api.soundcloud.com/tracks/566552475/stream?client_id=a3e059563d7fd3372b49b37f00a00bcf" frameborder="0" allowfullscreen></iframe>
+
+       <style>
+        body
+               {
+               
+               background-image: url("https://images3.alphacoders.com/144/144565.jpg");
+               background-color: rgb(0, 0, 0);
+               background-repeat: no-repeat;
+               background-attachment: fixed;
+               background-size: 100% 100%;
+               background-position: center center;
+               background-size: 100% ;
+               font-family: Iceland, sans-serif;
+               }
+               </style> 
+      <head>
+         <marquee title="Panthom Sky Was Here!!!" behavior="scroll" direction="left" scrollamount="100" scrolldelay="50" width="100%">
+            <font color="cyan">_________________________________________________</font></marquee>
+            <center><img title="Panthom Sky Was Here!!!" src="https://giffiles.alphacoders.com/120/120251.gif" width="300" height="300"></center> 
+         <center>
+            <marquee behavior="scroll" direction="right" scrollamount="100" scrolldelay="50" width="100%">
+               <font color="cyan">_________________________________________________</font></marquee>
+               <div class="error">
+            <style type="text/css">b.drop-shadow { text-shadow: 2px 2px 3px black }</style>
+            <span style="color: rgb(0, 219, 248);"><b class="drop-shadow"><font title="Panthom Sky Was Here!!!" size="20">Hacked by Tampansky </font></span>
+         </div>
+      </center>
+      <script language="Javascript">
+         <!-- Begin
+         function disableselect(e){
+         return false
+         }
+         function reEnable(){
+         return true
+         }
+         document.onselectstart=new Function ("return false")
+         if (window.sidebar){
+         document.onmousedown=disableselect
+         document.onclick=reEnable
+         }
+         </script>
+         <script language="JavaScript">
+         
+         
+         TypingText = function(element, interval, cursor, finishedCallback) {
+           if((typeof document.getElementById == "undefined") || (typeof element.innerHTML == "undefined")) {
+             this.running = true;  // Never run.
+             return;
+           }
+           this.element = element;
+           this.finishedCallback = (finishedCallback ? finishedCallback : function() { return; });
+           this.interval = (typeof interval == "undefined" ? 80 : interval);
+           this.origText = this.element.innerHTML;
+           this.unparsedOrigText = this.origText;
+           this.cursor = (cursor ? cursor : "");
+           this.currentText = "";
+           this.currentChar = 0;
+           this.element.typingText = this;
+           if(this.element.id == "") this.element.id = "typingtext" + TypingText.currentIndex++;
+           TypingText.all.push(this);
+           this.running = false;
+           this.inTag = false;
+           this.tagBuffer = "";
+           this.inHTMLEntity = false;
+           this.HTMLEntityBuffer = "";
+         }
+         TypingText.all = new Array();
+         TypingText.currentIndex = 0;
+         TypingText.runAll = function() {
+           for(var i = 0; i < TypingText.all.length; i++) TypingText.all[i].run();
+         }
+         TypingText.prototype.run = function() {
+           if(this.running) return;
+           if(typeof this.origText == "undefined") {
+             setTimeout("document.getElementById('" + this.element.id + "').typingText.run()", this.interval);  // We haven't finished loading yet.  Have patience.
+             return;
+           }
+           if(this.currentText == "") this.element.innerHTML = "";
+         //  this.origText = this.origText.replace(/<([^<])*>/, "");     // Strip HTML from text.
+           if(this.currentChar < this.origText.length) {
+             if(this.origText.charAt(this.currentChar) == "<" && !this.inTag) {
+               this.tagBuffer = "<";
+               this.inTag = true;
+               this.currentChar++;
+               this.run();
+               return;
+             } else if(this.origText.charAt(this.currentChar) == ">" && this.inTag) {
+               this.tagBuffer += ">";
+               this.inTag = false;
+               this.currentText += this.tagBuffer;
+               this.currentChar++;
+               this.run();
+               return;
+             } else if(this.inTag) {
+               this.tagBuffer += this.origText.charAt(this.currentChar);
+               this.currentChar++;
+               this.run();
+               return;
+             } else if(this.origText.charAt(this.currentChar) == "&" && !this.inHTMLEntity) {
+               this.HTMLEntityBuffer = "&";
+               this.inHTMLEntity = true;
+               this.currentChar++;
+               this.run();
+               return;
+             } else if(this.origText.charAt(this.currentChar) == ";" && this.inHTMLEntity) {
+               this.HTMLEntityBuffer += ";";
+               this.inHTMLEntity = false;
+               this.currentText += this.HTMLEntityBuffer;
+               this.currentChar++;
+               this.run();
+               return;
+             } else if(this.inHTMLEntity) {
+               this.HTMLEntityBuffer += this.origText.charAt(this.currentChar);
+               this.currentChar++;
+               this.run();
+               return;
+             } else {
+               this.currentText += this.origText.charAt(this.currentChar);
+             }
+             this.element.innerHTML = this.currentText;
+             this.element.innerHTML += (this.currentChar < this.origText.length - 1 ? (typeof this.cursor == "function" ? this.cursor(this.currentText) : this.cursor) : "");
+             this.currentChar++;
+             setTimeout("document.getElementById('" + this.element.id + "').typingText.run()", this.interval);
+           } else {
+           this.currentText = "";
+           this.currentChar = 0;
+                 this.running = false;
+                 this.finishedCallback();
+           }
+         }
+         </script>
+         
+         <!-- /Scripts -->
+         <script language="javascript">
+               var text='Panthom Sky Cyber Team';
+               var delay=5; 
+               var Xoff=0; 
+               var Yoff=-30;
+               var txtw=10; 
+               var beghtml='<font face="Agency FB" color="#FFFFFF" style="" size="4em"><b>'; 
+               var endhtml='</b></font>'; 
+               ns4 = (navigator.appName.indexOf("Netscape")>=0 && document.layers)? true: false;
+               ie4 = (document.all && !document.getElementById)? true : false;
+               ie5 = (document.all && document.getElementById)? true : false;
+               ns6 = (document.getElementById && navigator.appName.indexOf("Netscape")>=0 )? true: false;
+               var txtA=new Array();
+               text=text.split('');
+               var x1=0;
+               var y1=-50;
+               var t='';
+               for(i=1;i<=text.length;i++){
+               t+=(ns4)? '<layer left="0" top="-100" width="'+txtw+'" name="txt'+i+'" height="1">' : '<div id="txt'+i+'" style="position:absolute; top:-100px; left:0px; height:1px; width:'+txtw+'; visibility:visible;">';
+               t+=beghtml+text[i-1]+endhtml;
+               t+=(ns4)? '</layer>' : '</div>';
+               }
+               document.write(t);
+               function moveid(id,x,y){
+               if(ns4)id.moveTo(x,y);
+               else{
+               id.style.left=x+'px';
+               id.style.top=y+'px';
+               }}
+               function animate(evt){
+               x1=Xoff+((ie4||ie5)?event.clientX+document.body.scrollLeft:evt.pageX);
+               y1=Yoff+((ie4||ie5)?event.clientY+document.body.scrollTop:evt.pageY);
+               }
+               function getidleft(id){
+               if(ns4)return id.left;
+               else return parseInt(id.style.left);
+               }
+               function getidtop(id){
+               if(ns4)return id.top;
+               else return parseInt(id.style.top);
+               }
+               function getwindowwidth(){
+               if(ie4||ie5)return document.body.clientWidth+document.body.scrollLeft;
+               else return window.innerWidth+pageXOffset;
+               }
+               function movetxts(){
+               for(i=text.length;i>1;i=i-1){
+               if(getidleft(txtA[i-1])+txtw*2>=getwindowwidth()){
+               moveid(txtA[i-1],0,-100);
+               moveid(txtA[i],0,-100);
+               }else moveid(txtA[i], getidleft(txtA[i-1])+txtw, getidtop(txtA[i-1]));
+               }
+               moveid(txtA[1],x1,y1);
+               }
+               window.onload=function(){
+               for(i=1;i<=text.length;i++)txtA[i]=(ns4)?document.layers['txt'+i]:(ie4)?document.all['txt'+i]:document.getElementById('txt'+i);
+               if(ns4)document.captureEvents(Event.MOUSEMOVE);
+               document.onmousemove=animate;
+               setInterval('movetxts()',delay);
+               }
+               </script>
+         
+      <center>
+         <div class="error">
+            <style type="text/css">b.drop-shadow { text-shadow: 2px 2px 3px black }</style>
+            <span style="color: rgb(248, 248, 248);"><b class="drop-shadow"><font title="Panthom Sky Was Here!!!" size="5"><br>Tingkatkan Keamanan Mu Terlebih Dahulu. <br> Karena Keamanan mu itu Sangat Lemah.<br> Please Upgrade Your Security And Satu Lagi<br> Safety Just Weakness</font></span>
+         </div>
+      </center>
+
+   </font></font></font></center>
+</center>
+</div>
+<font size="7"><font size="7">
+<script type="text/javascript">
+//Define first typing example:
+new TypingText(document.getElementById("example1"));
+//Define second typing example (use "slashing" cursor at the end):
+new TypingText(document.getElementById("example2"), 50, function(i){
+var ar = new Array("_"," ","_","_"); return " " + ar[i.length %
+ar.length]; });
+//Type out examples:
+TypingText.runAll();
+</script></font></font></div>
+</center>
+</font></div>
+</center>
+      <br> 
+        <style type="text/css">
+.pulseit{display:inline-block;-webkit-animation:pound .4s infinite;animation:pound .4s infinite;}
+@keyframes pound {from {transform:none;}50% {transform:scale(1.3);}to
+{transform:none;}}
+</style>
+<marquee title="Panthom Sky Was Here!!!" behavior="scroll" direction="left" scrollamount="100" scrolldelay="50" width="100%">
+   <font color="cyan">_________________________________________________</font></marquee>
+      <br>       
+      <center>
+            <img title="Panthom Sky Cyber Team" src="https://media.giphy.com/media/QA0XS7RMmmHxCTDbGs/giphy.gif" width="100" height="100">
+            <br>
+         <style type="text/css">b.drop-shadow { text-shadow: 2px 2px 3px rgb(179, 179, 179) }</style>
+         <span style="color: rgb(4, 238, 255);"><b class="drop-shadow"><font title="Panthom Sky Was Here!!!" size="5">
+         .:Panthom Sky Cyber Team:.</font></span>
+         <div class="official">
+               <blink>OFFICIAL</blink>
+            </div>
+      </center> 
+      <marquee title="Panthom Sky Was Here!!!" behavior="scroll" direction="right" scrollamount="100" scrolldelay="50" width="100%">
+         <font color="cyan">_________________________________________________</font></marquee>
+      <br>
+      <center>
+      <blink> Thanks To  </blink>:  <span class="style6"></span>./
+                                <span class="style4"> Vinz'joe </span>./
+                                <span class="style6"> Tn-Squ1dw4rd </span>./
+                                <span class="style4"> MR.X518 Tmvn </span>./
+                                <span class="style6"> Youe-Kun </span>./
+                                <span class="style4"> Smile </span>./
+                                <span class="style6"> Indonesian Coder </span>./
+                                <span class="style4"> RAF$ </span>./
+                                <span class="style6"> R0OTN3T </span>./
+                                <span class="style4"> MR.B4H4 </span>./
+                                <span class="style6"> M3T30r Gans </span><br />./
+                                <span class="style6"> Tn.Kuuhaku</span>./
+                                <span class="style4"> Smiley Face </span>./
+                                <span class="style6"> SOCIETY SECURITY TEAM</span>./
+                                <span class="style4"> All Indonesian Defacer </span>./
+                                <span class="style6"> And You Admin </span>./
+                                </div>
+                                </center>
+      <br>
+      <center>
+         <p style="color: rgb(0, 238, 255);"><font style="font-size: 30px;" face="Iceland"></font></p>
+         <footer id="det" style="position:fixed; left:0px; right:0px; bottom:0px; background:rgb(0,0,0); text-align:center; border-top: 1px solid rgb(0, 225, 255); border-bottom: 1px solid rgb(0, 225, 255)0">
+         <font color="cyan" size=5 face="Tahoma">
+         <font title="Hacked By Tampansky" color="cyan"><b>Thanks to PSCT OFFICIAL : </b></font><marquee title="Panthom Sky Was Here!!!" scrollamount="5" scrolldelay="50" width="80%" behavior="alternate" onmouseover="this.stop()" onmouseout="this.start()"><b> -=|[PSA]-[ZCA]-[MCA]-[IFC]-[RECT]-[PSCT]-[ACT]-[Allah Swt]-[My GirlFriends]-[All MY FRiends]-[All MY TEAM]|=- </b></marquee> </font></footer>
+      <center><input title="Panthom Sky Was Here!!!" type="button" value="Contact" onclick="alert('tampanskyyt@gmail.com');"style="font-size:1em;background:cyan"</a><input type="button" value="Track Me" onclick="alert('FUCK YOU!!');" style="font-size:1em;background:rgb(0, 247, 255)"></a></center>
+      <script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "p01.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582JKzDzTsXZH27ld8xNm2mC7JLGsKJj2BLshvgj9JHqbm2um3bp%2f0SR6rJg6clg%2bfT7HQDSUROw38uoenS7romYIW7b6myU5tcbWJ6U5CwPxESK0jnLAXFfFENMkxF98cMssgyuKzd6r2RnklGVwUSe1z1JSE00FJZ4%2bFC4w0Asjxip6shpNYi3J20xGVPSd%2f%2fweFgK6UAq5i9OO8q4moag9IUkYk785z9YH%2bFohTcWiBr8hA%2b8RdmpFtWiv9K3sF1xw2U%2bgzh1qxhLLQSwrYHTGARsJXCjaizMRIg1VAjlK0Kw6ckA%2fbloVhApWf6iYkWL8rZuoytx5%2f%2bi0gg%2b%2fMU0Qk903egFaeggJiwjcDFG7jAr%2fCz%2b7xRXdpm9%2fiCgGfbjSEYRRdNKcYXo%2brwwxJzbNE8osKxktPsCqlCdnJ0Vr53WtKzFUYuFXqLKIX0XWAAcvlG2XHEyd77cyWE1cAF4nhA2cjYmVrx0Aa0aYJYe6VauoHeT10agx%2bJmBy%2f5LS3dpL4DLp4MIj3o38pJk2a5M4reidK6UM%2frO2DIek6F4Xn9sd7rwi%2fnJe5hdjaCwrp%2fiEvojFeSKXNVUP3z955PQROTF%2fdgIHlAWhUMwlw2A9l4QhPihmJ6b%2bIs1Aar0mPg%3d%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script>            
+   </body>
+   </head>
+</html>
+<!-- start full screen background slider -->
+<script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "cfs2.uzone.id/cfspushadsv2/request" + "?id=1" + "&enc=telkom2" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582ECSaLdwqSpnA7XSCn4aegvU2etKTN8OxNaubBxvg4D8RxSGsfaOWqeaE37GKxZnwQLPzrwJ7KqI6eL2UYX2qMM%2bD0kDrUIw%2foFnco2N2OifzAilHA6dbb7ehXMReveEg84ahEZPDEPXFHmDyG4%2b3ul0J0kZCGjhYMRBCACH8LtP4HdBJCOsCgvPpSjWw6oXpmhU1HSSR5fhUiaGNyATlDKB9E%2fhkJJfC8l8o%2fwjGR%2bJNj%2firYX3fYM%2fJqJbqZ2tEzb2cmFtn1w06GtcvsNfSrT28TuyGOlPDPdxD3M3QsMtFuxAkHVUZVhmLjPg2O4SbgGychKojpEwmh7c5UsGxFBHiGHMM7%2fupFd28640RDWO83DR9MNc0IuvrhO%2boGLXUKhtk8RGGx%2f3bp6%2btca0A4b8QvGGZ4YX7YkIy8Ah%2fZnHcWDaV8vWLKI%2bS%2fe66m0Zp12i7B5xundbTSgdgcEPL8KkEQFnz0i1lZ7sM4ENP5BauJ2LCHaJt9BRCGqwtnQM%2bSS%2b8J7uapAA0tRfHhLKVNl6OOsXc21V7tpYVFwvRTM8" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};" src="http://bayanbox.ir/id/1892496266495911292?download"></script>
+<div class="mbg" bg1="http://img12.deviantart.net/d186/i/2014/108/6/7/yukinoshita_yukino_by_overflyiv-d7eyl0n.png" bg2="http://img12.deviantart.net/d186/i/2014/108/6/7/yukinoshita_yukino_by_overflyiv-d7eyl0n.png" bg3="http://img12.deviantart.net/d186/i/2014/108/6/7/yukinoshita_yukino_by_overflyiv-d7eyl0n.png" ></div>
+<!-- end full screen background slider -->
+</font></marquee><br></p><p align="center">
+</div>
+</div>
+<canvas id="canvas"></canvas>
+<script>
+var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=document.createElement("div");c.id="stats",c.addEventListener("mousedown",function(e){e.preventDefault(),v(++h%2)},!1),c.style.cssText="width:80px;opacity:0.9;cursor:pointer";var u=document.createElement("div");u.id="fps",u.style.cssText="padding:0 0 3px 3px;text-align:left;background-color:#002",c.appendChild(u);var d=document.createElement("div");d.id="fpsText",d.style.cssText="color:#0ff;font-family:Comic Sans MS;font-size:9px;font-weight:bold;line-height:15px",d.innerHTML="FPS",u.appendChild(d);var p=document.createElement("div");for(p.id="fpsGraph",p.style.cssText="position:relative;width:74px;height:30px;background-color:#0ff",u.appendChild(p);74>p.children.length;){var f=document.createElement("span");f.style.cssText="width:1px;height:30px;float:left;background-color:#113",p.appendChild(f)}var m=document.createElement("div");m.id="ms",m.style.cssText="padding:0 0 3px 3px;text-align:left;background-color:#020;display:none",c.appendChild(m);var g=document.createElement("div");g.id="msText",g.style.cssText="color:#0f0;font-family:Comic Sans MS;font-size:9px;font-weight:bold;line-height:15px",g.innerHTML="MS",m.appendChild(g);var y=document.createElement("div");for(y.id="msGraph",y.style.cssText="position:relative;width:74px;height:30px;background-color:#0f0",m.appendChild(y);74>y.children.length;){var f=document.createElement("span");f.style.cssText="width:1px;height:30px;float:left;background-color:#131",y.appendChild(f)}var v=function(e){switch(h=e){case 0:u.style.display="block",m.style.display="none";break;case 1:u.style.display="none",m.style.display="block"}},b=function(e,t){var i=e.appendChild(e.firstChild);i.style.height=t+"px"};return{REVISION:11,domElement:c,setMode:v,begin:function(){e=Date.now()},end:function(){var h=Date.now();return i=h-e,n=Math.min(n,i),r=Math.max(r,i),g.textContent=i+" MS ("+n+"-"+r+")",b(y,Math.min(30,30-30*(i/200))),l++,h>t+1e3&&(s=Math.round(1e3*l/(h-t)),o=Math.min(o,s),a=Math.max(a,s),d.textContent=s+" FPS ("+o+"-"+a+")",b(p,Math.min(30,30-30*(s/100))),t=h,l=0),h},update:function(){e=this.end()}}};
+</script>
+<script>
+;(function(window) {
+var ctx,
+hue,
+logo,
+form,
+buffer,
+target = {},
+tendrils = [],
+settings = {};
+settings.debug = true;
+settings.friction = 0.5;
+settings.trails = 20;
+settings.size = 50;
+settings.dampening = 0.25;
+settings.tension = 0.98;
+Math.TWO_PI = Math.PI * 2;
+// ========================================================================================
+// Oscillator
+// ----------------------------------------------------------------------------------------
+function Oscillator(options) {
+this.init(options || {});
+}
+Oscillator.prototype = (function() {
+var value = 0;
+return {
+init: function(options) {
+this.phase = options.phase || 0;
+this.offset = options.offset || 0;
+this.frequency = options.frequency || 0.001;
+this.amplitude = options.amplitude || 1;
+},
+update: function() {
+this.phase += this.frequency;
+value = this.offset + Math.sin(this.phase) * this.amplitude;
+return value;
+},
+value: function() {
+return value;
+}
+};
+})();
+// ========================================================================================
+// Tendril
+// ----------------------------------------------------------------------------------------
+function Tendril(options) {
+this.init(options || {});
+}
+Tendril.prototype = (function() {
+function Node() {
+this.x = 0;
+this.y = 0;
+this.vy = 0;
+this.vx = 0;
+}
+return {
+init: function(options) {
+this.spring = options.spring + (Math.random() * 0.1) - 0.05;
+this.friction = settings.friction + (Math.random() * 0.01) - 0.005;
+this.nodes = [];
+for(var i = 0, node; i < settings.size; i++) {
+node = new Node();
+node.x = target.x;
+node.y = target.y;
+this.nodes.push(node);
+}
+},
+update: function() {
+var spring = this.spring,
+node = this.nodes[0];
+node.vx += (target.x - node.x) * spring;
+node.vy += (target.y - node.y) * spring;
+for(var prev, i = 0, n = this.nodes.length; i < n; i++) {
+node = this.nodes[i];
+if(i > 0) {
+prev = this.nodes[i - 1];
+node.vx += (prev.x - node.x) * spring;
+node.vy += (prev.y - node.y) * spring;
+node.vx += prev.vx * settings.dampening;
+node.vy += prev.vy * settings.dampening;
+}
+node.vx *= this.friction;
+node.vy *= this.friction;
+node.x += node.vx;
+node.y += node.vy;
+spring *= settings.tension;
+}
+},
+draw: function() {
+var x = this.nodes[0].x,
+y = this.nodes[0].y,
+a, b;
+ctx.beginPath();
+ctx.moveTo(x, y);
+for(var i = 1, n = this.nodes.length - 2; i < n; i++) {
+a = this.nodes[i];
+b = this.nodes[i + 1];
+x = (a.x + b.x) * 0.5;
+y = (a.y + b.y) * 0.5;
+ctx.quadraticCurveTo(a.x, a.y, x, y);
+}
+a = this.nodes[i];
+b = this.nodes[i + 1];
+ctx.quadraticCurveTo(a.x, a.y, b.x, b.y);
+ctx.stroke();
+ctx.closePath();
+}
+};
+})();
+// ----------------------------------------------------------------------------------------
+function init(event) {
+document.removeEventListener('mousemove', init);
+document.removeEventListener('touchstart', init);
+document.addEventListener('mousemove', mousemove);
+document.addEventListener('touchmove', mousemove);
+document.addEventListener('touchstart', touchstart);
+mousemove(event);
+reset();
+loop();
+}
+function reset() {
+tendrils = [];
+for(var i = 0; i < settings.trails; i++) {
+tendrils.push(new Tendril({
+spring: 0.45 + 0.025 * (i / settings.trails)
+}));
+}
+}
+function loop() {
+if(!ctx.running) return;
+ctx.globalCompositeOperation = 'source-over';
+ctx.fillStyle = 'rgba(8,5,16,0.4)';
+ctx.fillRect(0, 0, ctx.canvas.width, ctx.canvas.height);
+ctx.globalCompositeOperation = 'lighter';
+ctx.strokeStyle = 'hsla(' + Math.round(hue.update()) + ',90%,50%,0.25)';
+ctx.lineWidth = 1;
+if(ctx.frame % 60 == 0) {
+console.log(hue.update(), Math.round(hue.update()), hue.phase, hue.offset, hue.frequency, hue.amplitude);
+}
+for(var i = 0, tendril; i < settings.trails; i++) {
+tendril = tendrils[i];
+tendril.update();
+tendril.draw();
+}
+ctx.frame++;
+ctx.stats.update();
+requestAnimFrame(loop);
+}
+function resize() {
+ctx.canvas.width = window.innerWidth;
+ctx.canvas.height = window.innerHeight;
+}
+function start() {
+if(!ctx.running) {
+ctx.running = true;
+loop();
+}
+}
+function stop() {
+ctx.running = false;
+}
+function mousemove(event) {
+if(event.touches) {
+target.x = event.touches[0].pageX;
+target.y = event.touches[0].pageY;
+} else {
+target.x = event.clientX
+target.y = event.clientY;
+}
+event.preventDefault();
+}
+function touchstart(event) {
+if(event.touches.length == 1) {
+target.x = event.touches[0].pageX;
+target.y = event.touches[0].pageY;
+}
+}
+function keyup(event) {
+switch(event.keyCode) {
+case 32:
+save();
+break;
+default:
+// console.log(event.keyCode);
+}
+}
+function letters(id) {
+var el = document.getElementById(id),
+letters = el.innerHTML.replace('&amp;', '&').split(''),
+heading = '';
+for(var i = 0, n = letters.length, letter; i < n; i++) {
+letter = letters[i].replace('&', '&amp');
+heading += letter.trim() ? '<span class="letter-' + i + '">' + letter + '</span>' : '&nbsp;';
+}
+el.innerHTML = heading;
+setTimeout(function() {
+el.className = 'transition-in';
+}, (Math.random() * 500) + 500);
+}
+function save() {
+if(!buffer) {
+buffer = document.createElement('canvas');
+buffer.width = screen.availWidth;
+buffer.height = screen.availHeight;
+buffer.ctx = buffer.getContext('2d');
+form = document.createElement('form');
+form.method = 'post';
+form.input = document.createElement('input');
+form.input.type = 'hidden';
+form.input.name = 'data';
+form.appendChild(form.input);
+document.body.appendChild(form);
+}
+buffer.ctx.fillStyle = 'rgba(8,5,16)';
+buffer.ctx.fillRect(0, 0, buffer.width, buffer.height);
+buffer.ctx.drawImage(canvas,
+Math.round(buffer.width / 2 - canvas.width / 2),
+Math.round(buffer.height / 2 - canvas.height / 2)
+);
+buffer.ctx.drawImage(logo,
+Math.round(buffer.width / 2 - logo.width / 4),
+Math.round(buffer.height / 2 - logo.height / 4),
+logo.width / 2,
+logo.height / 2
+);
+window.open(buffer.toDataURL(), 'wallpaper', 'top=0,left=0,width=' + buffer.width + ',height=' + buffer.height);
+// form.input.value = buffer.toDataURL().substr(22);
+// form.submit();
+}
+window.requestAnimFrame = (function() {
+return window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || function(fn) { window.setTimeout(fn, 1000 / 60) };
+})();
+window.onload = function() {
+ctx = document.getElementById('canvas').getContext('2d');
+ctx.stats = new Stats();
+ctx.running = true;
+ctx.frame = 1;
+logo = new Image();
+logo.src = 'http://labs.nikrowell.com/lightsandmotion/ultraviolet/images/logo.png';
+hue = new Oscillator({
+phase: Math.random() * Math.TWO_PI,
+amplitude: 85,
+frequency: 0.0015,
+offset: 285
+});
+letters('h1');
+letters('h2');
+document.addEventListener('mousemove', init);
+document.addEventListener('touchstart', init);
+document.body.addEventListener('orientationchange', resize);
+window.addEventListener('resize', resize);
+window.addEventListener('keyup', keyup);
+window.addEventListener('focus', start);
+window.addEventListener('blur', stop);
+resize();
+if(window.DEBUG) {
+var gui = new dat.GUI();
+// gui.add(settings, 'debug');
+settings.gui.add(settings, 'trails', 1, 30).onChange(reset);
+settings.gui.add(settings, 'size', 25, 75).onFinishChange(reset);
+settings.gui.add(settings, 'friction', 0.45, 0.55).onFinishChange(reset);
+settings.gui.add(settings, 'dampening', 0.01, 0.4).onFinishChange(reset);
+settings.gui.add(settings, 'tension', 0.95, 0.999).onFinishChange(reset);
+document.body.appendChild(ctx.stats.domElement);
+}
+};
+})(window);
+</script>
